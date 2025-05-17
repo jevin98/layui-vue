@@ -21,7 +21,6 @@
     "generate:icons": "pnpm -C packages/icons generate",
     "lint:eslint": "eslint --fix",
     "commit:eslint": "node ./build/commit-eslint.js",
-    "postinstall": "pnpm run build",
     "prepare": "husky install",
     "commit": "git add . && git-cz && git push"
   },
